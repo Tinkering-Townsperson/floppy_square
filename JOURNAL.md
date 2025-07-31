@@ -19,4 +19,29 @@ Next steps:
 ![](./journal-assets/01-unsoldered.jpg)
 ![](./journal-assets/03-diagram-on-article.jpg)
 
-**Total time spent: 2.5h**
+**Total time spent: 2h50m**
+
+# July 31st noon-ish: Working on schematic
+
+My father informed me I shouldn't solder anything without supervision (:skull::skull::skull:) so I was stuck making a schematic on KiCad. I didn't make a PCB yet because I'm thinking about using a perfboard (hope that's allowed...). I haven't decided what pin I want the button(s?) on yet, so the schematic is literally the pico with a 1x7 connector atm. Feeling kind of hungry so I'm going to go eat lunch.
+
+![beginning of schematic](./journal-assets/04-schematic-beginning.jpg)
+**Total time spent: like 25m :sob:**
+
+# July 31st early afternoon: Wokwi
+
+Ok lunch wasn't ready yet and it hit me that I could possibly try to test the code using Wokwi, but after about 15 minutes of trying to make it work I realised that there's no display component in wokwi and I gave up.
+
+![wokwi refusing to work](./journal-assets/05-wokwi-being-annoying.jpg)
+**Total time spent: 10m**
+
+# July 31st after lunch: Pivoting and continuing schematic
+
+So I decided that I would rather make something like the chrome dino or geometry game rather than flappy bird, but I don't want to change the repo name because I'm too lazy :skull:. (I wrote this previous section before starting the session)
+
+I continued working on the schematic and added two pushbuttons and two seven-segment displays. I will use the pushbuttons to control the game (1 will probably be play/pause) and the displays to show the score. After finishing and organizing the schematic (hopefully the last revision? :crossed_fingers:), I tried to wire up the circuit on two breadboards but realised I don't have enough jumper wires for both displays, so I left one unwired. I also worked on a test file for the display, and i'll port it over later. My mom's been home for about an hour now, so I can go solder.
+
+![schematic progress 1](./journal-assets/06-schematic-continued1.jpg)
+![schematic progress 2](./journal-assets/07-schematic-continued2.jpg)
+![wiring progress so far](./journal-assets/08-wiring-mostly-done.jpg)
+**Total tIMe spent: 2h20**
