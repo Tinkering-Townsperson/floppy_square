@@ -5,7 +5,7 @@ description: "A flappy bird-like game on a tft display with orph pico"
 created_at: "2025-07-31"
 ---
 
-**FULL TIME ESTIMATE SO FAR: 9h15m (if I didn't forget how math works)**
+**FULL TIME ESTIMATE SO FAR: 9h55m (if I didn't forget how math works)**
 
 # July 31st morning: Started the project, research
 
@@ -20,7 +20,6 @@ Next steps:
 ![test of display](./journal-assets/00-test-of-display.jpg)
 ![](./journal-assets/01-unsoldered.jpg)
 ![](./journal-assets/03-diagram-on-article.jpg)
-
 **Total time spent: 2h50m**
 
 # July 31st noon-ish: Working on schematic
@@ -63,3 +62,9 @@ I designed the case, trying to leave as much space and clearance as possible. I 
 ![assembled case mockup](./journal-assets/11-assembled-case-mockup.jpg)
 **Total time spent: 1h**
 
+# August 1st morning: 3D Design revision
+
+I woke up today to a message from Cyao that I needed to add the components in the assembled cad file, so I went ahead and did just that :shrug: Idk what else to write here tbh. I found the models for the GC9A01, seven segment display, and Pico on GrabCAD, and I had the models for the switches and keycaps left from my hackpad design.
+
+![assembled case mockup v2](./journal-assets/12-assembled-mockup-with-components.jpg)
+**Total tim espent: 40m**

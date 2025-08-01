@@ -2,7 +2,7 @@
 
 A flappy bird-like game on a Round GC9A01 display made with an Orpheus Pico.
 
-![Assembled mockup](./journal-assets/11-assembled-case-mockup.jpg)
+![Assembled mockup](./journal-assets/12-assembled-mockup-with-components.jpg)
 ![Wiring diagram/schematic](./journal-assets/07-schematic-continued2.jpg)
 
 I made this project because I wanted to squeeze in one final highway project before the deadline, and I used components I had lying around. My idea was to make a nostalgic childhood game, Flappy Bird, although I have since decided to switch to a chrome dino kind of game. Not everything went to plan, like when I accidentally soldered the GND and VCC pins on my display, bricking it and being unable to test the project.
