@@ -52,7 +52,7 @@ I continued working on the schematic and added two pushbuttons and two seven-seg
 
 I soldered the display pins. It went quite terribly wrong :sob:... First of all, I soldered the GND and VCC pins together (because i'm stupid), then when i finally separated them, it still didn't work, besides the backlight slightly brightening. I hope this is just because of my soldering, and I will buy another display later with the grant money.
 
-[bad soldering video](./journal-assets/10-bad-soldering.mp4)
+https://github.com/user-attachments/assets/8043284c-e6a4-4633-881d-286b245afca8
 
 **Total time spent: 2h30m :sob:**
 
