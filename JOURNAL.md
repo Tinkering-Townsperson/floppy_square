@@ -5,6 +5,8 @@ description: "A flappy bird-like game on a tft display with orph pico"
 created_at: "2025-07-31"
 ---
 
+**FULL TIME ESTIMATE SO FAR: 9h15m (if I didn't forget how math works)**
+
 # July 31st morning: Started the project, research
 
 So I started working around 9am ish, and came up with an idea for a project: A simple flappy bird game on a round display I had laying around. This was quite out of my comfort zone, as I had never used this kind of display before, and although I've had it for some time, the first time I ever saw it in use was at undercity (I believe it was the same model but I may be wrong.) on the Minion robot. I went ahead and started researching how to even go about connect the display, and after some trial and error, I came upon [this article](https://cebess.wordpress.com/2024/04/19/raspberry-pico-and-gc9a01-round-display-in-micropython/) which shows how to use it in micropython. I was originally thinking about using circuitpython, but for now I have opted to follow the instructions and figure out the display. So far, I have the test code and I have wired everything up with my Orpheus pico. I haven't actually tested it yet, as I haven't soldered the display yet. Will do that now. Wish me luck!
@@ -44,4 +46,20 @@ I continued working on the schematic and added two pushbuttons and two seven-seg
 ![schematic progress 1](./journal-assets/06-schematic-continued1.jpg)
 ![schematic progress 2](./journal-assets/07-schematic-continued2.jpg)
 ![wiring progress so far](./journal-assets/08-wiring-mostly-done.jpg)
-**Total tIMe spent: 2h20**
+**Total tIMe spent: 2h20m**
+
+# July 31st afternoon/evening: Soldering
+
+I soldered the display pins. It went quite terribly wrong :sob:... First of all, I soldered the GND and VCC pins together (because i'm stupid), then when i finally separated them, it still didn't work, besides the backlight slightly brightening. I hope this is just because of my soldering, and I will buy another display later with the grant money.
+
+[bad soldering video](./journal-assets/10-bad-soldering.mp4)
+
+**Total time spent: 2h30m :sob:**
+
+# July 31st evening: 3D Design
+
+I designed the case, trying to leave as much space and clearance as possible. I then exported [f3d](./cad/f3d/) files and [step](./cad/step/) files, available in the respective folders. I actually used the [hackpad case design tutorial](https://hackpad.hackclub.com/guide#case) for this :skull:. I also updated the schematic to have resistors.
+
+![assembled case mockup](./journal-assets/11-assembled-case-mockup.jpg)
+**Total time spent: 1h**
+
