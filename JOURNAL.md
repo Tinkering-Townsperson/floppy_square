@@ -62,6 +62,12 @@ I designed the case, trying to leave as much space and clearance as possible. I 
 ![assembled case mockup](./journal-assets/11-assembled-case-mockup.jpg)
 **Total time spent: 1h**
 
+# July 31st night (RIGHT BEFORE DEADLINE): Firmware
+
+I was stressing so badly for this part, and in all honesty, the firmware is NOT done. I implemented the display setup, button setup, and handling of the seven segment displays. I don't have any pictures of this unless you want screenshots of the code.
+
+
+
 # August 1st morning: 3D Design revision
 
 I woke up today to a message from Cyao that I needed to add the components in the assembled cad file, so I went ahead and did just that :shrug: Idk what else to write here tbh. I found the models for the GC9A01, seven segment display, and Pico on GrabCAD, and I had the models for the switches and keycaps left from my hackpad design.
